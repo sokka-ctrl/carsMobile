@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backkkkkk"
+    android:layout_margin="4dp"
+    >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/car_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Cars Model"
+            />
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/car_IMG"
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="60dp"
+            tools:background="@color/black" />
+
+
+        <TextView
+            android:maxLines="1"
+            android:id="@+id/car_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="75dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:text="Car Company"
+
+            />
+
+        <TextView
+            android:id="@+id/car_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Car Speed"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="115dp"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/car_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Car type"
+            android:layout_marginStart="240dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="155dp"
+            />
+
+            <TextView
+
+                android:id="@+id/Stars_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="★☆"
+                android:textColor="@color/yellow"
+                android:layout_marginTop="40dp"
+                android:textSize="20sp"
+                android:layout_marginStart="240dp"
+                />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
