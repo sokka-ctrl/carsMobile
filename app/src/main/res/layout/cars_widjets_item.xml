@@ -32,7 +32,6 @@
             app:layout_constraintTop_toBottomOf="@id/tv_carModel"
             tools:background="@color/black"/>
 
-
         <TextView
             android:id="@+id/tv_carCountry"
             app:layout_constraintTop_toBottomOf="@id/tv_carSpeed"

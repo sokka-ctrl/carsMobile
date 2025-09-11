@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.navigation.safeargs )
+    id("org.jetbrains.kotlin.plugin.parcelize")
 }
 
 android {
@@ -39,6 +41,8 @@ android {
 }
 
 dependencies {
+    implementation("androidx.navigation:navigation-fragment-ktx:2.9.3")
+    implementation("androidx.navigation:navigation-ui-ktx:2.9.3")
     implementation("com.github.bumptech.glide:glide:5.0.4")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
